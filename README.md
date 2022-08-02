@@ -34,6 +34,12 @@ Se dio uso del MERN:
 
 En que se hizo el despliegue del proyecto.
 
+## Nota 📝
+> Seguramente al instalar las dependecias no se instale correctamente la libreria de **mongoose**, entonces hacer instalacion manual de dicha libreria.
+>Instalar las dependecias del *backend* como del *frontend* independientemente.
+>Para instalar las despendencias del frontend acceder por consola a la carpeta *cliente.*
+
+
 ## Autores ✒️
 
 Danniel Mc. Carthy
