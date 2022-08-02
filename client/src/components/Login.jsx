@@ -35,7 +35,7 @@ const Login = () => {
           setTimeout(() => {
             setMensaje("");
             localStorage.setItem("token", data?.usuario.token);
-            navigate(`/`);
+            navigate(`/home`);
           }, 800);
         })
         .catch((error) => {
@@ -85,7 +85,6 @@ const Login = () => {
                   autoComplete="off"
                 />
               </div>
-              
             </div>
             <button type="submit">
               {loading ? "Cargando..." : "Iniciar Sesión"}

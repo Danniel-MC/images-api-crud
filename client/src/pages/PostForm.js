@@ -55,7 +55,7 @@ export function PostForm() {
             }
             actions.resetForm();
             actions.setSubmitting(false);
-            navigate("/");
+            navigate("/home");
           }}
         >
           {({ setFieldValue, isSubmitting, handleSubmit }) => (

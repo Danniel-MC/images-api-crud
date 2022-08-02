@@ -3,18 +3,17 @@
     margin: 0;
     box-sizing: border-box;
     outline: none;
-  } 
+  }
   .container {
-   
+
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: neutral;
   }
-  
+
   *::selection {
     background: black;
     color: white;
   }
-  

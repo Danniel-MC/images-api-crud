@@ -39,7 +39,7 @@ const Register = () => {
           setInputs({ nombre: "", contraseña: "", correo: "" });
           setTimeout(() => {
             setMensaje("");
-            navigate("/login");
+            navigate("/home");
           }, 1500);
         })
         .catch((error) => {
