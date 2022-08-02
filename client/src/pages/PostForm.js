@@ -33,7 +33,10 @@ export function PostForm() {
       <div className="bg-zinc-800 p-10 shadow-md shadow-black">
         <header className="flex justify-between items-center py-4 text-white">
           <h3 className="text-xl">New Post</h3>
-          <Link to="/" className="text-gray-400 text-sm hover:text-gray-300">
+          <Link
+            to="/home"
+            className="text-white-400 text-sm hover:text-white-300"
+          >
             Go Back
           </Link>
         </header>
@@ -43,7 +46,6 @@ export function PostForm() {
           validationSchema={Yup.object({
             title: Yup.string().required("Title is Required"),
             description: Yup.string().required("Description is Required"),
-            // image: Yup.mixed().required("The image required"),
           })}
           onSubmit={async (values, actions) => {
             if (params.id) {

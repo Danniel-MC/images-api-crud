@@ -28,7 +28,7 @@ const Login = () => {
       };
       setLoading(true);
       await axios
-        .post("http://localhost:3000/login", Usuario)
+        .post("http://localhost:3000/api/post/login", Usuario)
         .then((res) => {
           const { data } = res;
           setMensaje(data.mensaje);
@@ -36,14 +36,14 @@ const Login = () => {
             setMensaje("");
             localStorage.setItem("token", data?.usuario.token);
             navigate(`/`);
-          }, 1500);
+          }, 800);
         })
         .catch((error) => {
           console.error(error);
           setMensaje("Correo u contraseña incorrecta");
           setTimeout(() => {
             setMensaje("");
-          }, 1500);
+          }, 800);
         });
       setInputs({ correo: "", contraseña: "" });
       setLoading(false);

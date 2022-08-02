@@ -125,7 +125,7 @@ const Register = () => {
               {loading ? "Cargando..." : "Registrarme"}
             </button>
             <p>
-              Ya tienes una cuenta?{" "}
+              Ya tienes una cuenta?
               <b onClick={() => navigate("/")}>Inicia Sesión!</b>
             </p>
           </form>
