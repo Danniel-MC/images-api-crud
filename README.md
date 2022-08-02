@@ -1,5 +1,7 @@
 ## Nombre Proyecto 📋
+
 ### Upload Images
+
 Para la realizacion de este proyecto me base en las tecnologias vistas en clase, usando MERN en el backend y el FrontEnd.
 Este proyecto se basa en la subida de imagenes a un servicio de hosting de la empresa Cloudinary.
 
@@ -25,19 +27,16 @@ Se dio uso del MERN:
 - Expressjs para el enrutamiento.
 - React como front end
 - Nodejs como entorno de ejecución de JavaScript
-- Cloduinary como Alojamiento de Imágenes, por lo que debe proporcionar las siguientes variables de entorno. estas se encuentran en el perfil de su Cloudinary:
-`npm install cloudinary`
-- CLOUD_NAME
-- API_KEY
-** API_SECRET
-
+- Cloduinary como Alojamiento de Imágenes, por lo que debe proporcionar las siguientes variables de entorno. estas se encuentran en el perfil de su Cloudinary: CLOUD_NAME, API_KEY, API_SECRET
+  libreria de Cloudinary: `npm install cloudinary`
 
 ## Nota 📝
-> Seguramente al instalar las dependecias no se instale correctamente la libreria de **morgan**, entonces hacer instalacion manual de dicha libreria.
-- npm install morgan
->Instalar las dependecias del *backend* como del *frontend* independientemente.
->Para instalar las despendencias del frontend acceder por consola a la carpeta *cliente.*
 
+> Seguramente al instalar las dependecias no se instale correctamente la libreria de **morgan**, entonces hacer instalacion manual de dicha libreria.
+
+- `npm install morgan`
+  > Instalar las dependecias del _backend_ como del _frontend_ independientemente.
+  > Para instalar las despendencias del frontend acceder por consola a la carpeta _cliente._
 
 ## Autores ✒️
 
