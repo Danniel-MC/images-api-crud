@@ -32,7 +32,7 @@ Se dio uso del MERN:
 
 
 ## Nota 📝
-> Seguramente al instalar las dependecias no se instale correctamente la libreria de **mongoose**, entonces hacer instalacion manual de dicha libreria.
+> Seguramente al instalar las dependecias no se instale correctamente la libreria de **morgan**, entonces hacer instalacion manual de dicha libreria.
 >Instalar las dependecias del *backend* como del *frontend* independientemente.
 >Para instalar las despendencias del frontend acceder por consola a la carpeta *cliente.*
 
