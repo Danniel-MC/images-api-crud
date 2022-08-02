@@ -30,9 +30,6 @@ Se dio uso del MERN:
 - API_KEY
 - API_SECRET
 
-## Deployment 🚀
-
-En que se hizo el despliegue del proyecto.
 
 ## Nota 📝
 > Seguramente al instalar las dependecias no se instale correctamente la libreria de **mongoose**, entonces hacer instalacion manual de dicha libreria.
