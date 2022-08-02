@@ -1,5 +1,6 @@
 import { deleteImage, uploadImage } from "../libs/cloudinary.js";
 import Post from "../models/Post.js";
+
 import fs from "fs-extra";
 
 export const getPosts = async (req, res) => {

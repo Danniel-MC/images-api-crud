@@ -22,5 +22,4 @@ const postSchema = new mongoose.Schema(
     versionKey: false,
   }
 );
-
 export default mongoose.model("Post", postSchema);
