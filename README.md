@@ -29,7 +29,7 @@ Se dio uso del MERN:
 `npm install cloudinary`
 - CLOUD_NAME
 - API_KEY
-- API_SECRET
+** API_SECRET
 
 
 ## Nota 📝
