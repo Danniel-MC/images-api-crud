@@ -8,7 +8,7 @@ import Login from "./components/Login";
 function App() {
   return (
     <div className="bg-neutral-900 min-h-screen flex items-center ">
-      <div className="px-10 container m-auto py-4">
+      <div className="px-10 container m-auto ">
         <PostProvider>
           <Routes>
             <Route path="/" element={<Login />} />
