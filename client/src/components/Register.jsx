@@ -74,11 +74,6 @@ const Register = () => {
                   autoComplete="off"
                 />
               </div>
-              <svg
-                viewBox="0 0 30 32"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              ></svg>
             </div>
 
             <div className={styles.inputContainer}>
@@ -94,11 +89,6 @@ const Register = () => {
                   autoComplete="off"
                 />
               </div>
-              <svg
-                viewBox="0 0 30 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              ></svg>
             </div>
 
             <div className={styles.inputContainer}>
@@ -114,11 +104,6 @@ const Register = () => {
                   autoComplete="off"
                 />
               </div>
-              <svg
-                viewBox="0 0 30 30"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              ></svg>
             </div>
 
             <button type="submit">
