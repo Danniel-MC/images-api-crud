@@ -40,4 +40,4 @@ Se dio uso del MERN:
 
 ## Autores ✒️
 
-Danniel Mc. Carthy
+Danniel Mc.Carthy
