@@ -26,9 +26,9 @@ Se dio uso del MERN:
 - React como front end
 - Nodejs como entorno de ejecución de JavaScript
 - Cloduinary como Alojamiento de Imágenes, por lo que debe proporcionar las siguientes variables de entorno. estas se encuentran en el perfil de su Cloudinary:
--- CLOUD_NAME
--- API_KEY
--- API_SECRET
+- CLOUD_NAME
+- API_KEY
+- API_SECRET
 
 ## Deployment 🚀
 
