@@ -38,6 +38,6 @@ Se dio uso del MERN:
 > Instalar las dependecias del _backend_ como del _frontend_ independientemente.
 > Para instalar las despendencias del frontend acceder por consola a la carpeta _cliente._
 
-## Autores ✒️
+## Ingrante ✒️
 
-Danniel Mc.Carthy
+Danniel Mc.Carthy 1503199802687
